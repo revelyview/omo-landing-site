@@ -1,0 +1,36 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article,
+section,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+section > div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+img.image-content {
+    width: 100%;
+    /* max-width: 1300px; */
+    border: 0;
+}
+
+.container {
+    max-width: 100%;
+    text-align: center;
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

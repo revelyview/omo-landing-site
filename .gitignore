@@ -351,3 +351,7 @@ MigrationBackup/
 
 # ts output
 dist/
+
+.next/
+
+.DS_Store
