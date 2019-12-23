@@ -3626,8 +3626,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Home = function Home() {
-  var images = ['/images/001.png', '/images/002.png', '/images/003.png', '/images/004.png', '/images/005.png', '/images/006.png', '/images/007.png', '/images/008.png', '/images/009.png', // '/images/010.png',
-  '/images/011.png'];
+  var images = ['./images/001.png', './images/002.png', './images/003.png', './images/004.png', './images/005.png', './images/006.png', './images/007.png', './images/008.png', './images/009.png', // '/images/010.png',
+  './images/011.png'];
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
@@ -3665,7 +3665,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fbbon%2FRepos%2Fomo-landing-site%2Fpages%2Findex.tsx ***!
   \*******************************************************************************************************************************/
@@ -3688,5 +3688,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
