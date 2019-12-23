@@ -2,8 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import { ImageSection } from '../components/ImageSection';
 
-import '../public/css/main.css';
-
 const Home = () => {
     const images = [
         './images/001.png',
@@ -22,6 +20,7 @@ const Home = () => {
         <>
             <Head>
                 <title>OMO </title>
+                <link href="./css/main.css" rel="stylesheet" />
             </Head>
             <article className="container">
                 {images.map((image, index) => {
