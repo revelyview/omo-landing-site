@@ -1,0 +1,89 @@
+#section1-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 100%; */
+    height: 90vh;
+    min-height: 1000px;
+    background-color: #60c0bd;
+    /* padding-left: 10rem; */
+    /* padding-right: 10rem; */
+}
+.container-padding {
+    padding-left: 10rem;
+}
+#section1-empty {
+    flex: 1;
+}
+#section1-content {
+    flex: 1;
+}
+#section1-logo {
+    /* width: 254px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-self: flex-end;
+}
+
+#section1-logo img {
+    width: 254px;
+    object-fit: contain;
+}
+
+#section1-title {
+    /* width: 601px;
+    height: 178px; */
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: NotoSansCJKkr;
+    font-size: 60px;
+    /* font-size: 4.2rem; */
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section1-subtitle {
+    /* width: 537px;
+    height: 117px; */
+    font-family: NotoSansCJKkr;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    flex: 1;
+}
+
+#section1-button {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#section1-button button {
+    width: 196px;
+    height: 69px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    /* width: 110px;
+    height: 45px; */
+    font-family: NotoSansCJKkr;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5bbabc;
+}

@@ -11,7 +11,8 @@ body {
 
 article,
 section,
-section {
+section,
+div {
     margin: 0;
     padding: 0;
     border: 0;

@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import { ImageSection } from '../components/ImageSection';
+import { Section1 } from '../components/Section1';
+import { Section2 } from '../components/Section2';
 
 const Home = () => {
     const images = [
@@ -22,11 +24,13 @@ const Home = () => {
                 <title>OMO </title>
                 <link href="./css/main.css" rel="stylesheet" />
             </Head>
-            <article className="container">
+            <Section1 />
+            <Section2 />
+            {/* <article className="container">
                 {images.map((image, index) => {
                     return <ImageSection key={image} image={image} alt={`${index + 1} 번째 이미지`} />;
                 })}
-            </article>
+            </article> */}
         </>
     );
 };
