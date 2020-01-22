@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -9,18 +15,14 @@ body {
     border: 0;
 }
 
-article,
-section,
-section {
+
+
+section>div {
     margin: 0;
     padding: 0;
     border: 0;
 }
-section > div {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 img.image-content {
     width: 100%;
     /* max-width: 1300px; */

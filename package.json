@@ -23,9 +23,12 @@
     "homepage": "https://github.com/revelyview/omo-landing-site#readme",
     "dependencies": {
         "@zeit/next-css": "^1.0.1",
+        "axios": "^0.19.2",
+        "dotenv": "^8.2.0",
         "next": "^9.1.6",
         "react": "^16.12.0",
-        "react-dom": "^16.12.0"
+        "react-dom": "^16.12.0",
+        "validate.js": "^0.13.1"
     },
     "devDependencies": {
         "@types/eslint": "^6.1.3",

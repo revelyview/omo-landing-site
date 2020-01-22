@@ -353,5 +353,7 @@ MigrationBackup/
 dist/
 
 .next/
-
+.dist/
 .DS_Store
+
+.env
