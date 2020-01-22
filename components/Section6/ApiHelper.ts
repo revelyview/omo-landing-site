@@ -46,7 +46,7 @@ export class ApiHelper {
             });
 
             const { success, message, payload } = response.data;
-
+            console.info(response.data);
             if (success) {
                 const { item } = payload;
                 result.success = (item as boolean) || false;
@@ -55,6 +55,7 @@ export class ApiHelper {
                 result.message = message || failMessage;
             }
         } catch (error) {
+            console.error(error);
             result.success = false;
             result.message = failMessage;
         }

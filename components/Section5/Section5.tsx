@@ -45,7 +45,11 @@ export const Section5 = () => {
                 />
             </div>
             <div>
-                <img src="" alt="OFFLINE, MEET ONLINE" />
+                <img
+                    src="/images/section5/offline-meet-online.png"
+                    srcSet="/images/section5/offline-meet-online@2x.png 2x, /images/section5/offline-meet-online@3x.png 3x"
+                    alt="OFFLINE, MEET ONLINE"
+                />
             </div>
             <div className="section5-subtitle">‘골목 상권 살리기 프로젝트’</div>
         </div>

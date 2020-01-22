@@ -14,7 +14,7 @@ export const Section1 = () => {
             <div id="section1-empty"></div>
             <div id="section1-empty"></div>
             <div id="section1-logo">
-                <div className="container-padding">
+                <div className="section1-container-padding">
                     <img
                         src="/images/section1/logo.png"
                         srcSet="/images/section1/logo@2x.png 2x, /images/section1/logo@3.png 3x"
@@ -23,7 +23,7 @@ export const Section1 = () => {
                 </div>
             </div>
             <div id="section1-content">
-                <div className="container-padding">
+                <div className="section1-container-padding">
                     <div id="section1-title">
                         <p>
                             제주, <br />
@@ -43,7 +43,7 @@ export const Section1 = () => {
             </div>
 
             <div id="section1-button">
-                <div className="container-padding">
+                <div className="section1-container-padding">
                     <button onClick={handleClick}>입점신청 ➡️</button>
                 </div>
             </div>

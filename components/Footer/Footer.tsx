@@ -5,7 +5,11 @@ export const Footer = () => {
     return (
         <div id="footer-container">
             <div id="footer-logo">
-                <img src="#" alt="회색 로고" />
+                <img
+                    src="/images/footer/logo.png"
+                    srcSet="/images/footer/logo@2x.png 2x, /images/footer/logo@3x.png 3x"
+                    alt="OMO JEJU"
+                />
             </div>
             <div id="footer-info">
                 (주)리블리뷰 | 주소 제주대학교 BI센터 108호 <br />
