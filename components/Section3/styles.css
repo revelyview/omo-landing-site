@@ -1,0 +1,128 @@
+#section3-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    min-height: 1000px;
+    background-color: #f8f8f8;
+}
+
+.container-padding {
+    padding-left: 10rem;
+}
+
+#section3-empty {
+    flex: 1;
+}
+
+#section3-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section3-content p {
+    /* width: 622px;
+    height: 59px; */
+    font-family: NotoSansCJKkr;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: center;
+    color: #202020;
+}
+
+#section3-content p.highlight {
+    width: 488px;
+    height: 197px;
+    font-family: NotoSansCJKkr;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5bbabc;
+}
+
+#section3-content p.highlight span {
+    color: #202020;
+
+}
+
+#section3-logo {
+    /* width: 254px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-self: flex-end;
+}
+
+#section3-logo img {
+    width: 198px;
+    height: 63px;
+    object-fit: contain;
+}
+
+#section3-title {
+    /* width: 345px;height: 74px; */
+    font-family: NotoSansCJKkr;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5bbabc;
+}
+
+#section3-icon-list-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.section3-icon-list-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 182px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: 91px;
+    margin-right: 15px;
+}
+
+.section3-icon-list-item img {
+    /* width: 47.4px;
+    height: 63.6px; */
+    object-fit: contain;
+    /* border: solid 5px #5bbabc; */
+}
+
+.section3-icon-list-item p {
+    /* width: 108px;
+    height: 20px; */
+    font-family: NanumSquareOTFB;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #656565;
+}

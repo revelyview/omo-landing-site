@@ -1,0 +1,115 @@
+#section4-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    min-height: 1000px;
+    background-color: #ffffff;
+}
+
+#section4-container>div:last-child {
+    margin-bottom: 300px;
+}
+
+.container-padding {
+    padding-left: 10rem;
+}
+
+#section4-empty {
+    flex: 1;
+}
+
+.section4-item-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.section4-item-image {
+    flex: 1;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    margin-right: 8rem;
+}
+
+.section4-item-content {
+    flex: 1;
+    width: 50%
+}
+
+.section4-item-content h1 {
+    /* width: 59px;
+    height: 74px; */
+    font-family: NotoSansCJKkr;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5bbabc;
+
+    padding: 0;
+    margin: 0;
+}
+
+.section4-item-content h2 {
+    /* width: 299px;
+    height: 74px; */
+    font-family: NotoSansCJKkr;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #202020;
+
+    padding: 0;
+    margin: 0;
+}
+
+.section4-item-content h3 {
+    /* width: 362px;
+    height: 45px; */
+    font-family: NotoSansCJKkr;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #202020;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 52px;
+}
+
+.section4-item-content p {
+    /* width: 356px;height: 195px; */
+    font-family: NotoSansCJKkr;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #202020;
+
+    padding: 0;
+    margin: 0;
+}

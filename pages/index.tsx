@@ -3,6 +3,8 @@ import Head from 'next/head';
 import { ImageSection } from '../components/ImageSection';
 import { Section1 } from '../components/Section1';
 import { Section2 } from '../components/Section2';
+import { Section3 } from '../components/Section3';
+import { Section4 } from '../components/Section4';
 
 const Home = () => {
     const images = [
@@ -26,6 +28,8 @@ const Home = () => {
             </Head>
             <Section1 />
             <Section2 />
+            <Section3 />
+            <Section4 />
             {/* <article className="container">
                 {images.map((image, index) => {
                     return <ImageSection key={image} image={image} alt={`${index + 1} 번째 이미지`} />;
