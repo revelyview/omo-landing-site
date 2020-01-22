@@ -8,6 +8,7 @@
     height: 90vh;
     min-height: 1000px;
     background-color: #f8f8f8;
+    position: relative;
 }
 
 .container-padding {
@@ -59,11 +60,9 @@
 }
 
 #section3-logo {
-    /* width: 254px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    justify-self: flex-end;
+    position: absolute;
+    top: 48px;
+    left: 48px;
 }
 
 #section3-logo img {

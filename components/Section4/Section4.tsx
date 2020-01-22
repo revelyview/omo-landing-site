@@ -24,7 +24,7 @@ export const Section4 = () => {
                         타 지역 매장은 검색을 통해 찾아 볼 수 있습니다. <br />
                     </>
                 }
-                // image={<img src="/images/section4/phone1.png" />}
+                image={<img src="/images/section4/phone1.png" alt="매장 위치 파악" />}
             />
             <SectionItem
                 titleNo="02"
@@ -47,6 +47,7 @@ export const Section4 = () => {
                         최신 정보를 받아볼 수 있습니다. <br />
                     </>
                 }
+                image={<img src="#" alt="온라인으로 찾는 나만의 매장" />}
             />
             <SectionItem
                 titleNo="03"
@@ -62,6 +63,7 @@ export const Section4 = () => {
                         <br />
                     </>
                 }
+                image={<img src="#" alt="별점 / 리뷰" />}
             />
             <SectionItem
                 titleNo="04"
@@ -81,6 +83,7 @@ export const Section4 = () => {
                         <br />
                     </>
                 }
+                image={<img src="#" alt="배송 서비스" />}
             />
 
             <SectionItem
@@ -96,6 +99,7 @@ export const Section4 = () => {
                         <br />
                     </>
                 }
+                image={<img src="#" alt="포인트 적립" />}
             />
         </div>
     );

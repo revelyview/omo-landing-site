@@ -7,13 +7,11 @@ export const Section3 = () => {
         <div id="section3-container">
             <div id="section3-empty"></div>
             <div id="section3-logo">
-                {/* <div className="container-padding">
-                    <img
-                        src="/images/section3/omo.png"
-                        srcSet="/images/section3/omo@2x.png 2x, /images/section3/omo@3.png 3x"
-                        alt="OMO"
-                    />
-                </div> */}
+                <img
+                    src="/images/section3/logo.png"
+                    srcSet="/images/section3/logo@2x.png 2x, /images/section3/logo@3.png 3x"
+                    alt="OMO"
+                />
             </div>
             <div id="section3-content">
                 <div id="section3-title">오모 핵심 서비스</div>
@@ -81,7 +79,6 @@ export const Section3 = () => {
             </div>
 
             <div id="section3-empty"></div>
-            <a id="find"></a>
         </div>
     );
 };

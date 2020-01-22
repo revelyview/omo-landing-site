@@ -5,7 +5,7 @@ import './styles.css';
 export const Section1 = () => {
     const handleClick = () => {
         // window.location.hash = '#find';
-        document.querySelector('#find').scrollIntoView({
+        document.querySelector('#section6').scrollIntoView({
             behavior: 'smooth',
         });
     };
