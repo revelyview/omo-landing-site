@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Router from 'next/router';
 import validate from 'validate.js';
 import { ApiHelper } from './ApiHelper';
 import './styles.css';
@@ -146,6 +147,8 @@ export const Section6 = () => {
         //     errors: errors || {},
         // }));
 
+        // Router.push('/complete');
+
         if (formState.isValid) {
             const api = new ApiHelper();
             setLoading(true);
@@ -157,6 +160,7 @@ export const Section6 = () => {
                     const { success, message } = result;
 
                     if (success) {
+                        Router.push('/complete');
                     } else {
                         setMessage(message);
                     }

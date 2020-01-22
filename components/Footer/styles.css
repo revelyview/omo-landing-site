@@ -9,6 +9,9 @@
     background-color: #f5f5f5;
 
     box-sizing: border-box;
+
+    /* align-self: flex-end; */
+    justify-self: flex-end;
 }
 
 #footer-logo {

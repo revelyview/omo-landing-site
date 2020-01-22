@@ -10,8 +10,10 @@ const CompletePage = () => {
                 <title>OMO </title>
                 <link href="./css/main.css" rel="stylesheet" />
             </Head>
-            <Complete />
-            <Footer />
+            <div className="root">
+                <Complete />
+                <Footer />
+            </div>
         </>
     );
 };
