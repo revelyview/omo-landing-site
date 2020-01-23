@@ -42,7 +42,6 @@ const Home = () => {
 
             const handlerWindowResize = () => {
                 const _width = window.document.body.clientWidth;
-                console.info('[window.document.body.clientWidth]: ', _width);
                 setIsMobile(prevState => _width < 450);
             };
             window.addEventListener('resize', handlerWindowResize);
