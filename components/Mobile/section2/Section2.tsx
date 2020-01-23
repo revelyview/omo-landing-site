@@ -4,9 +4,9 @@ import './styles.css';
 
 export const Section2 = () => {
     return (
-        <div id="section2-container">
-            <div id="section2-content">
-                <div id="section2-logo">
+        <div id="mobile-section2-container">
+            <div id="mobile-section2-content">
+                <div id="mobile-section2-logo">
                     <img
                         src="/images/section2/omo.png"
                         srcSet="/images/section2/omo@2x.png 2x, /images/section2/omo@3x.png 3x"
@@ -15,7 +15,8 @@ export const Section2 = () => {
                 </div>
 
                 <p>
-                    오모는 <span className="content-accent">‘골목 상권 살리기 프로젝트’</span>의 일환으로, <br />
+                    오모는 <span className="mobile-section2-content-accent">‘골목 상권 살리기 프로젝트’</span>의
+                    일환으로, <br />
                     '오프라인 매장 모여라' 라는 뜻을 지니고 있습니다.
                     <br />
                     <br />

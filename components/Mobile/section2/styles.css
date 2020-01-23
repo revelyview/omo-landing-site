@@ -1,4 +1,4 @@
-#section2-container {
+#mobile-section2-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,23 +13,23 @@
     background-size: cover;
 }
 
-#section2-content {
+#mobile-section2-content {
     /* flex: 1; */
 }
 
-#section2-logo {
+#mobile-section2-logo {
     margin-top: 100px;
 }
 
-#section2-logo img {
+#mobile-section2-logo img {
     width: 120px;
     object-fit: contain;
 }
 
-#section2-content p {
+#mobile-section2-content p {
     /* width: 282px;
     height: 271px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 12px;
     font-weight: bold;
     font-stretch: normal;
@@ -38,11 +38,11 @@
     letter-spacing: normal;
     text-align: left;
     color: #202020;
-    flex: 1;
+    /* flex: 1; */
 
     margin-top: 65px;
 }
 
-.content-accent {
+.mobile-section2-content-accent {
     color: #89d1d3;
 }

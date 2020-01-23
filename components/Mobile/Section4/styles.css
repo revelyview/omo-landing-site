@@ -1,0 +1,105 @@
+#mobile-section4-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 1000px;
+    background-color: #ffffff;
+}
+
+.container-padding {
+    padding-left: 10rem;
+}
+
+#mobile-section4-empty {
+    flex: 1;
+}
+
+.mobile-section4-item-container {
+    flex: 1;
+    margin: 50px 0;
+}
+
+.mobile-section4-item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-section4-item-image {
+    flex: 1;
+    margin-top: 5px;
+}
+
+.mobile-section4-item-image img {
+    width: 149px;
+    /* height: 267px; */
+    object-fit: contain;
+}
+
+
+.mobile-section4-item-content h1 {
+    /* width: 24px; */
+    /* height: 29px; */
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5bbabc;
+}
+
+.mobile-section4-item-content h2 {
+    /* width: 119px; */
+    /* height: 29px; */
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #202020;
+
+    margin-top: 8px;
+}
+
+.mobile-section4-item-content h3 {
+    /* width: 188px; */
+    /* height: 20px; */
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #202020;
+
+    margin-top: 6px;
+}
+
+.mobile-section4-item-content p {
+    /* width: 238px; */
+    /* height: 108px; */
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #202020;
+
+    margin-top: 20px;
+}

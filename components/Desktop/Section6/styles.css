@@ -15,7 +15,7 @@
 #section6-container .title {
     /* width: 195px;
 height: 74px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 50px;
     font-weight: bold;
     font-stretch: normal;
@@ -90,7 +90,7 @@ height: 74px; */
 #section6-container label {
     /* width: 37px;
 height: 29px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 20px;
     font-weight: 500;
     font-stretch: normal;
@@ -118,7 +118,7 @@ height: 29px; */
 
     /* width: 50px;
 height: 27px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -140,7 +140,7 @@ height: 27px; */
     background-color: #5bbabc;
     /* width: 114px;
     height: 29px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 20px;
     font-weight: bold;
     font-stretch: normal;

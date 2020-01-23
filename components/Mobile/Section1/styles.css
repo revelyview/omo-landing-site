@@ -1,4 +1,4 @@
-#section1-container {
+#mobile-section1-container {
     width: 100%;
     height: 90vh;
     min-height: 640px;
@@ -15,28 +15,28 @@
 }
 
 
-#section1-logo {
+#mobile-section1-logo {
     /* width: 100%; */
     margin-top: 90px;
     text-align: center;
 }
 
-#section1-content {
+#mobile-section1-content {
     /* text-align: center; */
 }
 
 
-#section1-logo img {
+#mobile-section1-logo img {
     /* width: 254px; */
     width: 102px;
 
     object-fit: contain;
 }
 
-#section1-title {
+#mobile-section1-title {
     /* width: 241px;height: 72px; */
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 24px;
     /* font-size: 24px; */
     font-weight: bold;
@@ -48,9 +48,9 @@
     color: #ffffff;
 }
 
-#section1-subtitle {
+#mobile-section1-subtitle {
     /* width: 194px;height: 84px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     /* font-size: 12px; */
     font-size: 12px;
     font-weight: 500;
@@ -62,7 +62,7 @@
     color: #ffffff;
 }
 
-#section1-button {
+#mobile-section1-button {
     /* flex: 1; */
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
     margin-top: 1rem;
 }
 
-#section1-button button {
+#mobile-section1-button button {
 
     width: 122px;
     height: 43px;
@@ -81,7 +81,7 @@
     padding: 0.6rem 1rem;
     /* width: 66px;
 height: 27px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 18px;
     font-weight: bold;
     font-stretch: normal;

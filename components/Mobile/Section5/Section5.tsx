@@ -4,9 +4,9 @@ import './styles.css';
 
 export const Section5 = () => {
     return (
-        <div id="section5-container">
-            <div id="section5-title">오모만의 혜택</div>
-            <div id="section5-items">
+        <div id="mobile-section5-container">
+            <div className="mobile-section5-title">오모만의 혜택</div>
+            <div className="mobile-section5-items">
                 <SectionItem
                     title="배송 서비스를 통한 1일 상권"
                     icon={
@@ -45,13 +45,7 @@ export const Section5 = () => {
                 />
             </div>
 
-            <img
-                src="/images/section5/offline-meet-online.png"
-                srcSet="/images/section5/offline-meet-online@2x.png 2x, /images/section5/offline-meet-online@3x.png 3x"
-                alt="OFFLINE, MEET ONLINE"
-            />
-
-            <div id="section5-subtitle">‘골목 상권 살리기 프로젝트’</div>
+            <div className="mobile-section5-subtitle">‘골목 상권 살리기 프로젝트’</div>
         </div>
     );
 };

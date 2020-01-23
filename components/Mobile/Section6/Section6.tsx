@@ -175,69 +175,63 @@ export const Section6 = () => {
     };
 
     return (
-        <div id="section6-container">
+        <div id="mobile-section6-container">
             <a id="section6"></a>
-            <div className="title">입점신청</div>
+            <div className="mobile-section6-title">입점신청</div>
 
-            <form onSubmit={handleSubmit} autoComplete="off" autoCorrect="off" id="section6-form-container">
-                <div className="row">
-                    <div className="col">
-                        <div className="form-group">
-                            <label htmlFor="input-name">이름</label>
-                            <input
-                                id="input-name"
-                                type="text"
-                                placeholder="홍길동"
-                                name="name"
-                                maxLength={20}
-                                value={formState.values['name']}
-                                onChange={handleInputChange}
-                            />
-                            <div className="error">{hasError('name') ? formState.errors['name'][0] : ' '}</div>
-                        </div>
+            <form onSubmit={handleSubmit} autoComplete="off" autoCorrect="off" id="mobile-section6-form-container">
+                <div className="form-group">
+                    <label htmlFor="input-name">이름</label>
+                    <input
+                        id="input-name"
+                        type="text"
+                        placeholder="홍길동"
+                        name="name"
+                        maxLength={20}
+                        value={formState.values['name']}
+                        onChange={handleInputChange}
+                    />
+                    <div className="error">{hasError('name') ? formState.errors['name'][0] : ' '}</div>
+                </div>
 
-                        <div className="form-group">
-                            <label htmlFor="input-phone">연락처</label>
-                            <input
-                                id="input-phone"
-                                type="phone"
-                                placeholder="01000000000"
-                                name="phone"
-                                maxLength={13}
-                                value={formState.values['phone']}
-                                onChange={handleInputChange}
-                            />
-                            <div className="error">{hasError('phone') ? formState.errors['phone'][0] : ' '}</div>
-                        </div>
+                <div className="form-group">
+                    <label htmlFor="input-phone">연락처</label>
+                    <input
+                        id="input-phone"
+                        type="phone"
+                        placeholder="01000000000"
+                        name="phone"
+                        maxLength={13}
+                        value={formState.values['phone']}
+                        onChange={handleInputChange}
+                    />
+                    <div className="error">{hasError('phone') ? formState.errors['phone'][0] : ' '}</div>
+                </div>
 
-                        <div className="form-group">
-                            <label htmlFor="input-email">이메일</label>
-                            <input
-                                id="input-email"
-                                type="email"
-                                placeholder="omo@gmail.com"
-                                name="email"
-                                maxLength={50}
-                                value={formState.values['email']}
-                                onChange={handleInputChange}
-                            />
-                            <div className="error">{hasError('email') ? formState.errors['email'][0] : ' '}</div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="form-group full-height">
-                            <label htmlFor="input-content">문의 내용</label>
-                            <textarea
-                                id="input-content"
-                                name="content"
-                                maxLength={3000}
-                                value={formState.values['content']}
-                                onChange={handleTextareaChangge}
-                                placeholder="입점 및 궁금하신 점을 자유롭게 적어주세요 :)"
-                            ></textarea>
-                            <div className="error">{hasError('content') ? formState.errors['content'][0] : ' '}</div>
-                        </div>
-                    </div>
+                <div className="form-group">
+                    <label htmlFor="input-email">이메일</label>
+                    <input
+                        id="input-email"
+                        type="email"
+                        placeholder="omo@gmail.com"
+                        name="email"
+                        maxLength={50}
+                        value={formState.values['email']}
+                        onChange={handleInputChange}
+                    />
+                    <div className="error">{hasError('email') ? formState.errors['email'][0] : ' '}</div>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="input-content">문의 내용</label>
+                    <textarea
+                        id="input-content"
+                        name="content"
+                        maxLength={3000}
+                        value={formState.values['content']}
+                        onChange={handleTextareaChangge}
+                        placeholder="입점 및 궁금하신 점을 자유롭게 적어주세요 :)"
+                    ></textarea>
+                    <div className="error">{hasError('content') ? formState.errors['content'][0] : ' '}</div>
                 </div>
                 <div className="row">
                     <div className="col">

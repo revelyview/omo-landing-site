@@ -1,22 +1,11 @@
 #section5-container {
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;
-    /* NEW, Spec - Firefox, Chrome, Opera */
-    display: flex;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 90vh;
-    min-height: 1000px;
+    min-height: 1080px;
     background-color: #f8f8f8;
     padding: 0;
     margin: 0;
@@ -29,10 +18,10 @@
     box-sizing: border-box;
 }
 
-.section5-title {
-    /* width: 288px;
-height: 74px; */
-    font-family: NotoSansCJKkr;
+#section5-title {
+    /* width: 288px; */
+    /* height: 74px; */
+    font-family: 'Noto Sans KR';
     font-size: 50px;
     font-weight: normal;
     font-stretch: normal;
@@ -41,19 +30,18 @@ height: 74px; */
     letter-spacing: normal;
     text-align: center;
     color: #000000;
-
-    margin-top: 6rem;
-    margin-bottom: 6rem;
     display: flex;
     flex-direction: row;
     /* flex-basis: 0; */
     /* justify-content: center; */
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    margin-top: 60px;
+
 }
 
-.section5-subtitle {
+#section5-subtitle {
     /* width: 390px;height: 50px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 34px;
     font-weight: bold;
     font-stretch: normal;
@@ -62,20 +50,24 @@ height: 74px; */
     letter-spacing: normal;
     text-align: center;
     color: #000000;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+
+    margin-top: 43px;
 }
 
-.section5-items {
-    /* display: -webkit-box;
-display: -ms-flexbox;
-display: flex; */
+#sction5-container>img {
+    width: 100%;
+    max-width: 878px;
+    object-fit: contain;
+
+    margin-top: 64px;
+}
+
+#section5-items {
     display: block;
     flex-direction: column;
     /* justify-content: flex-start; */
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+
+    margin-top: 115px;
 }
 
 .section5-item-container {
@@ -94,7 +86,7 @@ display: flex; */
 .section5-item-container p {
     /* width: 395px;
 height: 50px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 34px;
     font-weight: bold;
     font-stretch: normal;

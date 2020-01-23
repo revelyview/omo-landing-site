@@ -1,0 +1,140 @@
+#mobile-section3-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    width: 100%;
+    height: 90vh;
+    min-height: 640px;
+    background-color: #f8f8f8;
+    /* position: relative; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+#mobile-section3-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#mobile-section3-logo {
+    margin-top: 34px;
+}
+
+#mobile-section3-logo img {
+    width: 69px;
+    object-fit: contain;
+}
+
+#mobile-section3-title {
+    /* width: 207px;
+  height: 45px; */
+    font-family: 'Noto Sans KR';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5bbabc;
+
+    margin-top: 29px;
+}
+
+#mobile-section3-content p {
+    flex: 1;
+}
+
+#mobile-section3-content p {
+    width: 236px;
+    height: 54px;
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #202020;
+
+    margin-top: 24px;
+}
+
+#mobile-section3-content p.highlight {
+    /* width: 210px; */
+    /* height: 90px; */
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5bbabc;
+}
+
+#mobile-section3-content p:last-child {
+    margin-bottom: 36px;
+}
+
+#mobile-section3-content p.highlight span {
+    color: #202020;
+}
+
+#mobile-section3-icon-list-container {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+}
+
+
+.mobile-section3-icon-list-item {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    min-width: 80px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px
+}
+
+.mobile-section3-icon-list-item img {
+    width: 24px;
+    /* width: 23.6px; */
+    /* height: 31.6px; */
+    object-fit: contain;
+    /* border: solid 2px #5bbabc; */
+}
+
+.mobile-section3-icon-list-item p {
+    /* width: 48px; */
+    /* height: 9px; */
+    font-family: NanumSquareOTFB;
+    font-size: 8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #656565;
+
+    margin-top: 18px;
+}

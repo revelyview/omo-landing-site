@@ -37,7 +37,7 @@
     /* width: 601px;
     height: 178px; */
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 60px;
     /* font-size: 4.2rem; */
     font-weight: bold;
@@ -54,7 +54,7 @@
 #section1-subtitle {
     /* width: 537px;
     height: 117px; */
-    font-family: NotoSansCJKkr;
+    font-family: 'Noto Sans KR';
     font-size: 25px;
     font-weight: 500;
     font-stretch: normal;
@@ -79,13 +79,4 @@
     background-color: #ffffff;
     /* width: 110px;
     height: 45px; */
-    font-family: NotoSansCJKkr;
-    font-size: 30px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #5bbabc;
 }

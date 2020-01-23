@@ -4,21 +4,24 @@ import './styles.css';
 
 export const Section3 = () => {
     return (
-        <div id="section3-container">
-            <div id="section3-logo">
-                <img
-                    src="/images/section3/logo.png"
-                    srcSet="/images/section3/logo@2x.png 2x, /images/section3/logo@3.png 3x"
-                    alt="OMO"
-                />
-            </div>
-            <div id="section3-content">
-                <div id="section3-title">오모 핵심 서비스</div>
+        <div id="mobile-section3-container">
+            <div id="mobile-section3-content">
+                <div id="mobile-section3-logo">
+                    <img
+                        src="/images/section3/logo.png"
+                        srcSet="/images/section3/logo@2x.png 2x, /images/section3/logo@3x.png 3x"
+                        alt="OMO"
+                    />
+                </div>
+                <div id="mobile-section3-title">오모 핵심 서비스</div>
                 <p>
                     골목 상권 살리기 프로젝트, 오모
                     <br />
-                    오모는 매장이 필요로 하는 서비스와 도민이 원하는 서비스가 공존하는 플랫폼입니다.
+                    오모는 매장이 필요로 하는 서비스와
+                    <br />
+                    도민이 원하는 서비스가 공존하는 플랫폼입니다.
                 </p>
+
                 <p className="highlight">
                     <span>오모가 제공하는 서비스</span>
                     <br />
@@ -29,9 +32,8 @@ export const Section3 = () => {
                     ‘24시간 이내 배송 서비스를 통한 1일 상권’
                 </p>
             </div>
-
-            <div id="section3-icon-list-container">
-                <div className="section3-icon-list-item">
+            <div id="mobile-section3-icon-list-container">
+                <div className="mobile-section3-icon-list-item">
                     <img
                         src="/images/section3/icon1.png"
                         srcSet="/images/section3/icon1@2x.png 2x, /images/section3/icon1@3x.png 3x"
@@ -39,7 +41,7 @@ export const Section3 = () => {
                     />
                     <p>매장 위치 파악</p>
                 </div>
-                <div className="section3-icon-list-item">
+                <div className="mobile-section3-icon-list-item">
                     <img
                         src="/images/section3/icon2.png"
                         srcSet="/images/section3/icon2@2x.png 2x, /images/section3/icon2@3x.png 3x"
@@ -50,7 +52,7 @@ export const Section3 = () => {
                         찾는 나만의 매장
                     </p>
                 </div>
-                <div className="section3-icon-list-item">
+                <div className="mobile-section3-icon-list-item">
                     <img
                         src="/images/section3/icon3.png"
                         srcSet="/images/section3/icon3@2x.png 2x, /images/section3/icon3@3x.png 3x"
@@ -58,7 +60,7 @@ export const Section3 = () => {
                     />
                     <p>별점 / 리뷰</p>
                 </div>
-                <div className="section3-icon-list-item">
+                <div className="mobile-section3-icon-list-item">
                     <img
                         src="/images/section3/icon4.png"
                         srcSet="/images/section3/icon4@2x.png 2x, /images/section3/icon4@3x.png 3x"
@@ -66,7 +68,7 @@ export const Section3 = () => {
                     />
                     <p>배송 서비스</p>
                 </div>
-                <div className="section3-icon-list-item">
+                <div className="mobile-section3-icon-list-item">
                     <img
                         src="/images/section3/icon5.png"
                         srcSet="/images/section3/icon5@2x.png 2x, /images/section3/icon5@3x.png 3x"
@@ -75,8 +77,6 @@ export const Section3 = () => {
                     <p>포인트 적립</p>
                 </div>
             </div>
-
-            <div id="section3-empty"></div>
         </div>
     );
 };
