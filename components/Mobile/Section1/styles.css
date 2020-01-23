@@ -71,20 +71,13 @@
 
 #mobile-section1-button button {
     width: 122px;
-    height: 43px;
+    /* height: 43px; */
     border-radius: 10px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
-    padding: 0.6rem 1rem;
-    /* width: 66px;
-height: 27px; */
-    /* font-family: 'Noto Sans KR'; */
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #5bbabc;
+}
+
+#mobile-section1-button button img {
+    width: 122px;
+    object-fit: contain;
 }

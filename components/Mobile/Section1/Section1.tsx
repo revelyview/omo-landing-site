@@ -32,7 +32,13 @@ export const Section1 = () => {
                     </p>
                 </div>
                 <div id="mobile-section1-button">
-                    <button onClick={handleClick}>입점신청 ➡️</button>
+                    <button onClick={handleClick}>
+                        <img
+                            src="/images/section1/button.png"
+                            srcSet="/images/section1/button@2x.png 2x, /images/section1/button@3x.png 3x"
+                            alt="입점 신청"
+                        />
+                    </button>
                 </div>
             </div>
         </div>
