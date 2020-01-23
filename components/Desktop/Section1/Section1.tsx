@@ -17,7 +17,7 @@ export const Section1 = () => {
                 <div className="section1-container-padding">
                     <img
                         src="/images/section1/logo.png"
-                        srcSet="/images/section1/logo@2x.png 2x, /images/section1/logo@3.png 3x"
+                        srcSet="/images/section1/logo@2x.png 2x, /images/section1/logo@3x.png 3x"
                         alt="OMO JEJU"
                     />
                 </div>

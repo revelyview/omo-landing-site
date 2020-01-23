@@ -11,7 +11,7 @@ export const Section2 = () => {
                 <div className="section2-container-padding">
                     <img
                         src="/images/section2/omo.png"
-                        srcSet="/images/section2/omo@2x.png 2x, /images/section2/omo@3.png 3x"
+                        srcSet="/images/section2/omo@2x.png 2x, /images/section2/omo@3x.png 3x"
                         alt="OMO"
                     />
                 </div>

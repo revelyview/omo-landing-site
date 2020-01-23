@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import { Footer } from '../components/Footer';
-import { Complete } from '../components/Complete';
+import { Footer } from '../components/Desktop/Footer';
+import { Complete } from '../components/Desktop/Complete';
 
 const CompletePage = () => {
     return (

@@ -9,21 +9,25 @@
     min-height: 1000px;
     /* background-color: #bbb; */
     /* padding-left: 10rem; */
-    background-image: url('/images/section2/bg.png');
+    background-image: url('/images/desktop/section2/bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     /* resize: both; */
     background-size: cover;
 }
+
 .section2-container-padding {
     margin-left: 24rem;
 }
+
 #section2-empty {
     flex: 1;
 }
+
 #section2-content {
     flex: 1;
 }
+
 #section2-logo {
     /* width: 254px; */
     display: flex;

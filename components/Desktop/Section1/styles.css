@@ -9,13 +9,14 @@
     min-height: 1000px;
     background-color: #60c0bd;
 
-    background-image: url('/images/section1/bg.png');
+    background-image: url('/images/desktop/section1/bg.png');
     background-repeat: no-repeat;
     background-position: 0 0;
     resize: both;
     background-size: cover;
     box-sizing: border-box;
 }
+
 .section1-container-padding {
     margin-left: 8rem;
 }
@@ -29,9 +30,11 @@
 #section1-empty {
     flex: 1;
 }
+
 #section1-content {
     flex: 1;
 }
+
 #section1-logo {
     /* width: 254px; */
     display: flex;
