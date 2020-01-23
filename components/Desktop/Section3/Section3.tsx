@@ -8,7 +8,7 @@ export const Section3 = () => {
             <div id="section3-logo">
                 <img
                     src="/images/section3/logo.png"
-                    srcSet="/images/section3/logo@2x.png 2x, /images/section3/logo@3.png 3x"
+                    srcSet="/images/section3/logo@2x.png 2x, /images/section3/logo@3x.png 3x"
                     alt="OMO"
                 />
             </div>
