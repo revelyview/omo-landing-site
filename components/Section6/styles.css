@@ -6,7 +6,7 @@
     align-items: center;
     width: 100%;
     height: 80vh;
-    min-height: 600px;
+    min-height: 800px;
     background-color: #ffffff;
     padding: 0;
     margin: 0;
@@ -55,7 +55,7 @@ height: 74px; */
     padding: 10px 5px;
 }
 
-#section6-form-container .row > * {
+#section6-form-container .row>* {
     flex: 1;
     /* min-height: 50vh; */
     margin: 0 5px;
@@ -74,7 +74,7 @@ height: 74px; */
     flex: 1;
 }
 
-#section6-form-container .full-height > textarea {
+#section6-form-container .full-height>textarea {
     flex: 1;
 }
 
@@ -152,6 +152,7 @@ height: 27px; */
 
     align-self: center;
 }
+
 #section6-form-container .row .col .form-group .message {
     align-self: center;
     margin-bottom: 0.8rem;
