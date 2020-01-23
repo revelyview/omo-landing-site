@@ -35,15 +35,15 @@ const Home = () => {
                 <title>OMO </title>
                 <link href="./css/main.css" rel="stylesheet" />
             </Head>
-            <MobileSection1 />
-            <MobileSection2 />
-            {/* <Section1 />
+            {/* <MobileSection1 />
+            <MobileSection2 /> */}
+            <Section1 />
             <Section2 />
             <Section3 />
             <Section4 />
             <Section5 />
             <Section6 />
-            <Footer /> */}
+            <Footer />
             {/* <article className="container">
                 {images.map((image, index) => {
                     return <ImageSection key={image} image={image} alt={`${index + 1} 번째 이미지`} />;
