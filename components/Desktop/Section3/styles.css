@@ -16,14 +16,14 @@
     align-items: center;
 }
 
-#section3-content>* {
+#section3-content > * {
     /* margin-bottom: 2rem; */
 }
 
 #section3-content p {
     /* width: 622px;
     height: 59px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 18px;
     font-weight: 500;
     font-stretch: normal;
@@ -39,7 +39,7 @@
 #section3-content p.highlight {
     width: 488px;
     height: 197px;
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 28px;
     font-weight: 500;
     font-stretch: normal;
@@ -54,7 +54,6 @@
 
 #section3-content p.highlight span {
     color: #202020;
-
 }
 
 #section3-logo {
@@ -71,7 +70,7 @@
 
 #section3-title {
     /* width: 345px;height: 74px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 50px;
     font-weight: bold;
     font-stretch: normal;
@@ -119,7 +118,7 @@
 .section3-icon-list-item p {
     /* width: 108px; */
     /* height: 20px; */
-    font-family: NanumSquareOTFB;
+    /* font-family: 'Noto Sans KR'; */
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;

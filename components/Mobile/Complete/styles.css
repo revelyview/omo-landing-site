@@ -26,11 +26,10 @@
     object-fit: contain;
 }
 
-
 #mobile-complete-content-container p {
     /* width: 246px; */
     /* height: 97px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -54,7 +53,7 @@
 
     /* width: 68px; */
     /* height: 20px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 14px;
     font-weight: bold;
     font-stretch: normal;

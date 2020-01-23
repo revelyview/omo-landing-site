@@ -15,7 +15,7 @@
 #mobile-section6-container .mobile-section6-title {
     /* width: 86px; */
     /* height: 33px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 22px;
     font-weight: bold;
     font-stretch: normal;
@@ -36,7 +36,6 @@
     margin-top: 10px;
 }
 
-
 #mobile-section6-form-container .form-group {
     /* margin: 0 5px; */
     box-sizing: border-box;
@@ -55,7 +54,7 @@
 #mobile-section6-container label {
     /* width: 22px; */
     /* height: 18px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 12px;
     font-weight: 500;
     font-stretch: normal;
@@ -75,7 +74,7 @@
     background-color: #ffffff;
     /* width: 41px; */
     /* height: 22px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
@@ -104,7 +103,7 @@
 
     /* width: 92px; */
     /* height: 24px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;

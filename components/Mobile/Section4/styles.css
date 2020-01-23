@@ -41,11 +41,10 @@
     object-fit: contain;
 }
 
-
 .mobile-section4-item-content h1 {
     /* width: 24px; */
     /* height: 29px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 20px;
     font-weight: bold;
     font-stretch: normal;
@@ -59,7 +58,7 @@
 .mobile-section4-item-content h2 {
     /* width: 119px; */
     /* height: 29px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 20px;
     font-weight: 500;
     font-stretch: normal;
@@ -75,7 +74,7 @@
 .mobile-section4-item-content h3 {
     /* width: 188px; */
     /* height: 20px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 14px;
     font-weight: 500;
     font-stretch: normal;
@@ -91,7 +90,7 @@
 .mobile-section4-item-content p {
     /* width: 238px; */
     /* height: 108px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 12px;
     font-weight: normal;
     font-stretch: normal;

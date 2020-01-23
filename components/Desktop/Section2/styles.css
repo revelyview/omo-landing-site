@@ -47,7 +47,7 @@
     /* width: 601px;
     height: 178px; */
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 60px;
     /* font-size: 4.2rem; */
     font-weight: bold;
@@ -62,7 +62,7 @@
 #section2-content {
     /* width: 600px;
     height: 340px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 18px;
     font-weight: 500;
     font-stretch: normal;

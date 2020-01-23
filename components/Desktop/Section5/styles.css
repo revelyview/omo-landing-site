@@ -21,7 +21,7 @@
 #section5-title {
     /* width: 288px; */
     /* height: 74px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 50px;
     font-weight: normal;
     font-stretch: normal;
@@ -36,12 +36,11 @@
     /* justify-content: center; */
     /* align-items: flex-start; */
     margin-top: 60px;
-
 }
 
 #section5-subtitle {
     /* width: 390px;height: 50px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 34px;
     font-weight: bold;
     font-stretch: normal;
@@ -54,7 +53,7 @@
     margin-top: 43px;
 }
 
-#sction5-container>img {
+#sction5-container > img {
     width: 100%;
     max-width: 878px;
     object-fit: contain;
@@ -86,7 +85,7 @@
 .section5-item-container p {
     /* width: 395px;
 height: 50px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 34px;
     font-weight: bold;
     font-stretch: normal;

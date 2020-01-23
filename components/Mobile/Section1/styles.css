@@ -14,7 +14,6 @@
     align-items: center;
 }
 
-
 #mobile-section1-logo {
     /* width: 100%; */
     margin-top: 90px;
@@ -24,7 +23,6 @@
 #mobile-section1-content {
     /* text-align: center; */
 }
-
 
 #mobile-section1-logo img {
     /* width: 254px; */
@@ -36,7 +34,7 @@
 #mobile-section1-title {
     /* width: 241px;height: 72px; */
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 24px;
     /* font-size: 24px; */
     font-weight: bold;
@@ -50,7 +48,7 @@
 
 #mobile-section1-subtitle {
     /* width: 194px;height: 84px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     /* font-size: 12px; */
     font-size: 12px;
     font-weight: 500;
@@ -72,7 +70,6 @@
 }
 
 #mobile-section1-button button {
-
     width: 122px;
     height: 43px;
     border-radius: 10px;
@@ -81,7 +78,7 @@
     padding: 0.6rem 1rem;
     /* width: 66px;
 height: 27px; */
-    font-family: 'Noto Sans KR';
+    /* font-family: 'Noto Sans KR'; */
     font-size: 18px;
     font-weight: bold;
     font-stretch: normal;

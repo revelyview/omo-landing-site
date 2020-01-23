@@ -60,6 +60,7 @@ export const Section3 = () => {
                     />
                     <p>별점 / 리뷰</p>
                 </div>
+
                 <div className="mobile-section3-icon-list-item">
                     <img
                         src="/images/section3/icon4.png"
