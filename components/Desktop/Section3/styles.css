@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-#section3-content > * {
+#section3-content>* {
     /* margin-bottom: 2rem; */
 }
 
@@ -37,8 +37,8 @@
 }
 
 #section3-content p.highlight {
-    width: 488px;
-    height: 197px;
+    /* width: 488px; */
+    /* height: 197px; */
     /* font-family: 'Noto Sans KR'; */
     font-size: 28px;
     font-weight: 500;

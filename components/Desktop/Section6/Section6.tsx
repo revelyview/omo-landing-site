@@ -193,7 +193,9 @@ export const Section6 = () => {
                                 value={formState.values['name']}
                                 onChange={handleInputChange}
                             />
-                            <div className="error">{hasError('name') ? formState.errors['name'][0] : ' '}</div>
+                            <div className="error">
+                                {hasError('name') ? <span>{formState.errors['name'][0]}</span> : <span>&nbsp;</span>}
+                            </div>
                         </div>
 
                         <div className="form-group">
@@ -207,7 +209,9 @@ export const Section6 = () => {
                                 value={formState.values['phone']}
                                 onChange={handleInputChange}
                             />
-                            <div className="error">{hasError('phone') ? formState.errors['phone'][0] : ' '}</div>
+                            <div className="error">
+                                {hasError('phone') ? <span>{formState.errors['phone'][0]}</span> : <span>&nbsp;</span>}
+                            </div>
                         </div>
 
                         <div className="form-group">
@@ -221,7 +225,9 @@ export const Section6 = () => {
                                 value={formState.values['email']}
                                 onChange={handleInputChange}
                             />
-                            <div className="error">{hasError('email') ? formState.errors['email'][0] : ' '}</div>
+                            <div className="error">
+                                {hasError('email') ? <span>{formState.errors['email'][0]}</span> : <span>&nbsp;</span>}
+                            </div>
                         </div>
                     </div>
                     <div className="col">
@@ -235,7 +241,9 @@ export const Section6 = () => {
                                 onChange={handleTextareaChangge}
                                 placeholder="입점 및 궁금하신 점을 자유롭게 적어주세요 :)"
                             ></textarea>
-                            <div className="error">{hasError('content') ? formState.errors['content'][0] : ' '}</div>
+                            <div className="error">
+                                {hasError('content') ? formState.errors['content'][0] : <span>&nbsp;</span>}
+                            </div>
                         </div>
                     </div>
                 </div>

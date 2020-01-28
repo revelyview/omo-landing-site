@@ -6,7 +6,7 @@
     align-items: center;
     width: 100%;
     height: 80vh;
-    min-height: 800px;
+    min-height: 900px;
     background-color: #ffffff;
     padding: 0;
     margin: 0;
@@ -35,7 +35,7 @@ height: 74px; */
 }
 
 #section6-form-container {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -55,7 +55,7 @@ height: 74px; */
     padding: 10px 5px;
 }
 
-#section6-form-container .row > * {
+#section6-form-container .row>* {
     flex: 1;
     /* min-height: 50vh; */
     margin: 0 5px;
@@ -69,27 +69,27 @@ height: 74px; */
 }
 
 #section6-form-container .form-group {
-    margin: 0 5px;
-    box-sizing: border-box;
+    /* margin: 0 5px; */
+    /* box-sizing: border-box; */
     flex: 1;
-}
-
-#section6-form-container .full-height > textarea {
-    flex: 1;
-}
-
-#section6-container .form-group {
-    flex: 1;
-    margin-top: 1.8rem;
-    padding: 0;
+    /* padding: 0; */
+    /* margin-top: 10px; */
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
 
+#section6-form-container .full-height>textarea {
+    flex: 1;
+    height: 100%;
+}
+
+
+
 #section6-container label {
-    /* width: 37px;
-height: 29px; */
+    /* width: 37px; */
+    /* height: 29px; */
     /* font-family: 'Noto Sans KR'; */
     font-size: 20px;
     font-weight: 500;
@@ -162,9 +162,9 @@ height: 27px; */
     background-color: #bbb;
 }
 
-.error {
+#section6-form-container .error {
     display: block;
-    color: #df3232;
+    color: #dd5757;
     padding-top: 0.3rem;
     box-sizing: border-box;
     font-size: 14px;

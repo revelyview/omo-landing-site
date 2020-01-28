@@ -37,15 +37,8 @@
 }
 
 #mobile-section6-form-container .form-group {
-    /* margin: 0 5px; */
-    box-sizing: border-box;
-    flex: 1;
-}
-
-#mobile-section6-container .form-group {
-    flex: 1;
-    margin-top: 8px;
-    padding: 0;
+    /* flex: 1; */
+    padding-bottom: 8px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -126,10 +119,10 @@
     background-color: #bbb;
 }
 
-.error {
+#mobile-section6-form-container .error {
     display: block;
-    color: #df3232;
+    color: #dd5757;
     padding-top: 0.3rem;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 12px;
 }
