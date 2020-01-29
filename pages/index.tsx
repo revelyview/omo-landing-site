@@ -100,7 +100,7 @@ const Home = () => {
 
             const ie = usingIE(window.navigator.userAgent);
             setIsIE(ie);
-            // setLoading(false);
+            setLoading(false);
             return () => {
                 window.removeEventListener('resize', handlerWindowResize);
             };
