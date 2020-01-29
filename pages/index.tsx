@@ -16,6 +16,56 @@ import { MobileSection4 } from '../components/Mobile/Section4';
 import { MobileSection5 } from '../components/Mobile/Section5';
 import { MobileSection6 } from '../components/Mobile/Section6';
 import { MobileFooter } from '../components/Mobile/Footer';
+import { NotSupport } from '../components/Desktop/NotSupport';
+import { Loading } from '../components/Desktop/Loading';
+
+const usingIE = (ua: string) => {
+    const msie = ua.indexOf('MSIE ');
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+        // If Internet Explorer, return version number
+        // alert(parseInt(ua.substring(msie + 5, ua.indexOf('.', msie))));
+        return true;
+    } // If another browser, return 0
+    else {
+        // alert('otherbrowser');
+        return false;
+    }
+};
+
+const Mobile = () => {
+    return (
+        <>
+            <MobileSection1 />
+            <MobileSection2 />
+            <MobileSection3 />
+            <MobileSection4 />
+            <MobileSection5 />
+            <MobileSection6 />
+            <MobileFooter />
+        </>
+    );
+};
+
+const Desktop = () => {
+    return (
+        <>
+            <Section1 />
+            <Section2 />
+            <Section3 />
+            <Section4 />
+            <Section5 />
+            <Section6 />
+            <Footer />
+        </>
+    );
+};
+interface MainProps {
+    isMobile: boolean;
+}
+const Main = ({ isMobile }: MainProps) => {
+    return isMobile ? <Mobile /> : <Desktop />;
+};
 
 const Home = () => {
     // const images = [
@@ -32,7 +82,9 @@ const Home = () => {
     //     './images/011.png',
     // ];
 
+    const [loading, setLoading] = useState(true);
     const [isMobile, setIsMobile] = useState(false);
+    const [isIE, setIsIE] = useState(false);
 
     useEffect(() => {
         if (window) {
@@ -46,6 +98,9 @@ const Home = () => {
             };
             window.addEventListener('resize', handlerWindowResize);
 
+            const ie = usingIE(window.navigator.userAgent);
+            setIsIE(ie);
+            // setLoading(false);
             return () => {
                 window.removeEventListener('resize', handlerWindowResize);
             };
@@ -62,27 +117,8 @@ const Home = () => {
                 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet"></link>
                 <link href="./css/main.css" rel="stylesheet" />
             </Head>
-            {isMobile ? (
-                <>
-                    <MobileSection1 />
-                    <MobileSection2 />
-                    <MobileSection3 />
-                    <MobileSection4 />
-                    <MobileSection5 />
-                    <MobileSection6 />
-                    <MobileFooter />
-                </>
-            ) : (
-                <>
-                    <Section1 />
-                    <Section2 />
-                    <Section3 />
-                    <Section4 />
-                    <Section5 />
-                    <Section6 />
-                    <Footer />
-                </>
-            )}
+            {loading ? <Loading /> : isIE ? <NotSupport /> : <Main isMobile={isMobile} />}
+
             {/* <article className="container">
                 {images.map((image, index) => {
                     return <ImageSection key={image} image={image} alt={`${index + 1} 번째 이미지`} />;
